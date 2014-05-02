@@ -1,2 +1,2 @@
-gdi-rdu-responsive-workshop
+GDI RDU Responsive Workshop
 ===========================
