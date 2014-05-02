@@ -55,11 +55,18 @@
 						<li>A modern browser (e.g. Chrome, Firefox)</li>
 						<li>A text editor (e.g. Sublime Text)</li>
 						<li>A copy of the <a href="https://github.com/amwelles/gdi-rdu-responsive-workshop/archive/master.zip">workshop files</a></li>
+						<li>Follow along here: http://amwelles.github.io/gdi-rdu-responsive-workshop</li>
 					</ul>
+					<aside class="notes">
+						<p>Make sure everybody is connected and has their cellphones put away.</p>
+					</aside>
 				</section>
 
 				<section>
 					<img src="images/girl-develop-it.png" alt="Girl Develop It!">
+					<aside class="notes">
+						<p>Thank GDI for being an awesome resource.</p>
+					</aside>
 				</section>
 
 				<section>
@@ -93,6 +100,9 @@
 
 				<section>
 					<h2>What do you want out of this workshop?</h2>
+					<aside class="notes">
+						<p>Quick icebreaker. Ask the students about why they're taking this class, what they're currently doing, etc.</p>
+					</aside>
 				</section>
 
 				<section>
@@ -107,6 +117,9 @@
 						<li class="fragment">flexible images</li>
 						<li class="fragment">fluid grids</li>
 					</ul>
+					<aside class="notes">
+						<p>These aren't the only ingredients, of course!</p>
+					</aside>
 				</section>
 
 				<section>
@@ -142,6 +155,9 @@
 						<li class="fragment">orientation (landscape or portrait)</li>
 						<li class="fragment">resolution</li>
 					</ul>
+					<aside class="notes">
+						<p>Ask students what kinds of things they may want to detect in a device.</p>
+					</aside>
 				</section>
 
 				<section>
@@ -152,6 +168,9 @@
 						<li><a href="http://www.starbucks.com/">Starbucks</a></li>
 						<li><a href="http://alistapart.com/">A List Apart</a></li>
 					</ul>
+					<aside class="notes">
+						<p>Ask students if they have any more examples.</p>
+					</aside>
 				</section>
 
 				<section>
@@ -161,6 +180,9 @@
 						<img src="images/emulator.png" alt="Google Chrome Emulator"><br>
 						<small>* You'll need to reload the page after you press the "Emulate" button.</small>
 					</p>
+					<aside class="notes">
+						<p>Firefox also has a good responsive viewer.</p>
+					</aside>
 				</section>
 
 				<section>
@@ -209,6 +231,7 @@
 				<section>
 					<h2>Seamless web</h2>
 					<p>Browsers like Chrome and Safari know that people want seamless web browsing experiences. Browse or bookmark something on your mobile phone, get home and view it on your desktop browser.</p>
+					<p>By making your website responsive, you'll ensure that it looks good no matter where your users are.</p>
 				</section>
 
 				<section>
@@ -221,6 +244,9 @@
 							<li>Safari 3.2 and below</li>
 						</ul>
 						<p><a href="http://caniuse.com/css-mediaqueries">More information on browser support</a></p>
+						<aside class="notes">
+							<p>At least most of us aren't coding for IE6 anymore!</p>
+						</aside>
 					</section>
 					<section>
 						<h2>Still need support for older browsers?</h2>
@@ -229,6 +255,9 @@
 							<li><a href="http://modernizr.com/">Modernizer</a></li>
 							<li><a href="https://github.com/scottjehl/Respond">Respond.js</a></li>
 						</ul>
+						<aside class="notes">
+							<p>Use these only if you absolutely need to support older browsers. They're performance hogs.</p>
+						</aside>
 					</section>
 				</section>
 
@@ -247,6 +276,9 @@
 						<p>Responsive is not a fad, as it addresses a real<br>
 							need for planning our sites thoughtfully.</p>
 					</div>
+					<aside class="notes">
+						<p>Elements of responsive design may be fads. Hamburger icon, menu slide down, etc.</p>
+					</aside>
 				</section>
 
 				<section>
@@ -254,6 +286,9 @@
 					<div class="fragment">
 						<p>Responsive is not a replacement for mobile apps. Responsive can save companies time and money by allowing for the development and maintenance of one set of code, but only if it's the appropriate solution.</p>
 					</div>
+					<aside class="notes">
+						<p>When might you want an app rather than a website?</p>
+					</aside>
 				</section>
 
 				<section>
@@ -267,6 +302,13 @@
 
 				<section>
 					<h2>Let's get coding!</h2>
+					<aside class="notes">
+						<ul>
+							<li>Open workshop-files</li>
+							<li>Explain mobile-first design</li>
+							<li>Mobile styles are already in place</li>
+						</ul>
+					</aside>
 				</section>
 
 				<section>
@@ -287,6 +329,9 @@
 								</ul>
 							</li>
 						</ul>
+						<aside class="notes">
+							<p>Susy, a framework built on top of a preprocessor</p>
+						</aside>
 					</section>
 					<section>
 						<h2>Why use a framework?</h2>
@@ -366,7 +411,7 @@
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Parallax scrolling
 				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
